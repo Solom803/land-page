@@ -1,0 +1,249 @@
+@media (max-width : 767px) {
+    .main-head .navbar-nav {
+        text-align: center;
+        margin: 0px 150px;
+        gap: 5px;
+    }
+
+
+
+    .hero {
+        padding: 20px 30px;
+        background: var(--Neutral-Silver, #f5f7fa);
+    }
+
+    .hero h1 {
+        color: var(--Neutral-D_Grey, #4D4D4D);
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .hero h1 span {
+        color: var(--Brand-Primary, #4CAF4F);
+        font-family: Inter;
+        font-size: 39px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        position: relative;
+    }
+
+    .main-sections .hero img {
+        min-height: 300px;
+    }
+
+    .main-sections .hero .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        top: 320px;
+        left: 50px;
+    }
+
+    /* start client  */
+
+
+    .main-sections .client ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 3px;
+        row-gap: 31px;
+        border: none;
+        list-style: none;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .main-sections .community h2 {
+        color: var(--Neutral-D_Grey, #4D4D4D);
+        text-align: center;
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        margin: 0px;
+    }
+
+    /* start icons section  */
+
+    .main-sections .icons .text-center {
+        padding: 24px 32px;
+    }
+
+    .main-sections .icons .text-center h2 {
+        color: var(--Neutral-D_Grey, #4D4D4D);
+        text-align: center;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    /* start unLock section */
+    .main-sections .unLock .content h2 {
+        color: var(--Neutral-D_Grey, #4D4D4D);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .main-sections .unLock .text-center {
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .main-sections .unLock img {
+        vertical-align: middle;
+        padding-right: 32px;
+        max-width: 313px;
+    }
+
+    /* start acchivement section  */
+
+    .main-sections .Achievements .Achievements-right-side {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 3px;
+    }
+
+    .main-sections .Achievements .Achievements-right-side .Achievements-cols p {
+        color: var(--Neutral-D_Grey, #4D4D4D);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+    }
+
+    /* start women section */
+    .main-sections .wommen .pana h2 {
+        color: var(--Neutral-D_Grey, #4D4D4D);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .main-sections .wommen .pana p {
+        color: var(--Neutral-Grey, #717171);
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
+    .main-sections .wommen .pana button {
+        display: flex;
+        padding: 14px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        background: var(--Brand-Primary, #4CAF4F);
+        height: 40px;
+    }
+
+    .main-sections .wommen img {
+        vertical-align: middle;
+        padding-right: 0px;
+        max-width: 240px;
+    }
+
+
+
+    .main-sections .wommen .girl-photo {
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    /* start customer section  */
+    .main-sections .Customer .airbods {
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .main-sections .Customer .airbods .wommen-photo {
+        max-width: 400px;
+        min-width: unset;
+    }
+
+    Customer .first-paragraph {
+        color: var(--Neutral-Grey, #717171);
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+    }
+
+    .main-sections .Customer .list ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 11px;
+    }
+
+    /* start community section */
+    .main-sections .community .gx-custom {
+        row-gap: 30px;
+    }
+
+    /* start demo  */
+    .main-sections .demo h2 {
+        color: var(--Neutral-Black, #263238);
+        text-align: center;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 59px;
+    }
+
+    /* start footer */
+    footer .last-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mb-3 {
+        min-width: 130px;
+
+    }
+
+
+
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-sections .Customer .gx-custom {
+        --bs-gutter-x: 0px;
+    }
+}

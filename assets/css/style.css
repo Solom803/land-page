@@ -1,0 +1,742 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --Neutral-Silver: transperent;
+}
+
+/* style of  nav */
+.main-head .navbar {
+    padding: 24px;
+    background: var(--Neutral-Silver, transperent) !important;
+}
+
+
+
+/* style of middle list */
+.main-head .navbar-nav {
+    text-align: center;
+    margin: 0px 150px;
+    gap: 40px;
+}
+
+.main-head .navbar-nav a {
+    transition: all 1s ease-in-out;
+}
+
+.main-head .navbar-nav a:hover {
+    color: #c50c0c;
+
+}
+
+/* style of button */
+.main-head .butt {
+    display: flex;
+    gap: 15px;
+}
+
+.main-head .btn.login {
+    color: var(--Brand-Primary, #4CAF4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off, 'clig' off;
+
+
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+    border: none;
+    text-transform: capitalize;
+}
+
+
+
+.main-head .btn.sign-up {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--Brand-Primary, #4CAF4F);
+    color: white;
+    height: 40px;
+
+}
+
+/* end buttons style  */
+/* hero left side  */
+.hero {
+    padding: 60px 190px;
+    background: var(--Neutral-Silver, #f5f7fa);
+
+}
+
+/* h1 hero */
+h1 {
+
+    color: var(--Neutral-D_Grey, #4D4D4D);
+
+
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+/* h1 span  */
+h1 span {
+    color: var(--Brand-Primary, #4CAF4F);
+
+
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    position: relative;
+
+}
+
+/* paragraph */
+.main-sections .hero .text-caption p {
+    color: var(--Neutral-Grey, #717171);
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+
+
+}
+
+/* image */
+
+.main-sections .hero img {
+    max-height: 400px;
+}
+
+/* button */
+
+.main-sections .butt {
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Brand-Primary, #4CAF4F);
+    color: white;
+    height: 40px;
+
+}
+
+.hero .carousel-indicators [data-bs-target] {
+    background-color: var(--Brand-Primary, #4CAF4F);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+/* end hero style  */
+.main-sections .client ul {
+    display: flex;
+    gap: 140px;
+    border: none;
+    list-style: none;
+}
+
+/* start community section  */
+.main-sections .community h2 {
+    margin-top: 40px;
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.main-sections .community p {
+    color: var(--Neutral-Grey, #717171);
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+/* end community section */
+/* :start icon section  */
+
+
+.main-sections .icons .text-center {
+    padding: 24px 32px;
+}
+
+.main-sections .icons .text-center h2 {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.main-sections .icons .text-center p {
+    color: var(--Neutral-Grey, #717171);
+    text-align: center;
+
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+
+
+}
+
+.main-sections .icons .text-center .icon-box {
+    position: relative;
+    background-color: transparent;
+    box-shadow: none !important;
+    display: inline-flex;
+}
+
+.main-sections .icons .text-center .icon-box::after {
+    content: "";
+    position: absolute;
+    border-radius: 18px 5px 10px 5px;
+    background: var(--Tint-T5, #E8F5E9);
+    width: 50px;
+    height: 49px;
+    top: 2px;
+    left: 15px;
+    z-index: -1;
+
+
+}
+
+/* end icon section */
+/* start unlock section */
+
+
+
+.main-sections .unLock .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-sections .unLock .content h2 {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.main-sections .unLock .content p {
+    color: var(--Neutral-Grey, #717171);
+
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.main-sections .unLock .content .our-butt {
+    margin-top: 10px;
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Brand-Primary, #4CAF4F);
+    color: white;
+    height: 40px;
+}
+
+
+/* end unlock section */
+/* start  .Achievements  section   */
+.main-sections .Achievements {
+    padding: 40px 0px;
+}
+
+.main-sections .Achievements .our-text {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-sections .Achievements .our-text h2 {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+
+
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.main-sections .Achievements .our-text h2 span {
+    display: block;
+    color: var(--Brand-Primary, #4CAF4F);
+
+    /* Heading/Headline 2 */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.main-sections .Achievements .our-text p {
+    color: var(--Text-Gray-900, #18191F);
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+/* start right part  */
+/* main grid for 4 items  */
+.main-sections .Achievements .Achievements-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+/* flex for each item */
+.main-sections .Achievements .Achievements-right-side .Achievements-cols {
+    display: flex;
+    gap: 20px;
+}
+
+.main-sections .Achievements .Achievements-right-side .Achievements-cols p {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.main-sections .Achievements .Achievements-right-side .Achievements-cols p span {
+    color: var(--Neutral-Grey, #717171);
+    display: block;
+    /* Body/Regular/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* end  Achievements section */
+/* start wonmmen section */
+.main-sections .wommen {
+    margin-bottom: 50px;
+}
+
+
+.main-sections .wommen .pana {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.main-sections .wommen .pana h2 {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.main-sections .wommen .pana p {
+    color: var(--Neutral-Grey, #717171);
+
+    /* Body/Regular/Body 3 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+
+}
+
+.main-sections .wommen .pana button {
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Brand-Primary, #4CAF4F);
+    height: 40px;
+}
+
+/* end wommen section  */
+/* start Customer section */
+.main-sections .Customer .wommen-photo {
+    min-width: 430px;
+}
+
+.main-sections .Customer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main-sections .Customer .first-paragraph {
+    color: var(--Neutral-Grey, #717171);
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+
+}
+
+.main-sections .Customer .Tim-Smith {
+    color: var(--Brand-Primary, #4CAF4F);
+
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.main-sections .Customer .Dragon {
+    color: var(--Neutral-L_Grey, #89939E);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+.main-sections .Customer .list ul {
+    margin: 32px 0px;
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+    padding: 0px;
+}
+
+/* change gap in x direction */
+.main-sections .Customer .gx-custom {
+    --bs-gutter-x: 60px;
+}
+
+.main-sections .Customer .list ul li span {
+    color: var(--Brand-Primary, #4CAF4F);
+
+    /* Heading/Headline 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+/* end customer section */
+/* start community */
+
+.main-sections .community h2 {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    text-align: center;
+
+    /* Heading/Headline 2 */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 122.222% */
+}
+
+.main-sections .community .first-para {
+    color: var(--Neutral-Grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* start part of figure */
+.main-sections .community .photo-text.old-women,
+.main-sections .community .photo-text.cofee,
+.main-sections .community .photo-text.laptop {
+
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    width: 368px;
+
+    height: 286px;
+
+
+}
+
+
+
+.main-sections .community .photo-text.laptop {
+    background-image: url(../images/last-community.png);
+}
+
+.main-sections .community .photo-text.old-women {
+    background-image: url(../images/community-1.png);
+    z-index: 9;
+}
+
+.main-sections .community .photo-text.cofee {
+    background-image: url(../images/community-2.png);
+}
+
+
+
+.main-sections .community .gx-custom {
+    column-gap: 80px;
+}
+
+.main-sections .community .photo-text.old-women .first,
+.main-sections .community .photo-text.laptop .third,
+.main-sections .community .photo-text.cofee .second {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background: var(--Neutral-Silver, #F5F7FA);
+
+
+    border-radius: 8px;
+    background: var(--Neutral-Silver, #F5F7FA);
+
+    /* Shadow/8px */
+    box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.40);
+    background-color: #F5F7FA;
+    z-index: 999;
+    position: relative;
+    top: 160px;
+    height: 200px;
+
+}
+
+.main-sections .community .photo-text.old-women .first h3,
+.main-sections .community .photo-text.laptop .third h3,
+.main-sections .community .photo-text.cofee .second h3 {
+    color: var(--Neutral-Grey, #717171);
+    text-align: center;
+
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.main-sections .community .photo-text.old-women .first .read,
+.main-sections .community .photo-text.laptop .third .read,
+.main-sections .community .photo-text.cofee .second .read {
+    display: flex;
+    column-gap: 10px;
+}
+
+.main-sections .community .photo-text.old-women .first .read span,
+.main-sections .community .photo-text.laptop .third .read span,
+.main-sections .community .photo-text.cofee .second .read span {
+    color: var(--Brand-Primary, #4CAF4F);
+
+    /* Heading/Headline 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+/* end community */
+/* 
+start demo */
+.main-sections .demo {
+    margin: 80px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main-sections .demo h2 {
+    color: var(--Neutral-Black, #263238);
+    text-align: center;
+
+    /* Heading/Headline 1 */
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    /* 118.75% */
+}
+
+.main-sections .demo button {
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--Brand-Primary, #4CAF4F);
+    color: var(--Neutral-White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    height: 50px;
+}
+
+
+/* end demo */
+
+/* start footer */
+footer {
+
+    background: var(--Neutral-Black, #263238);
+    padding: 64px;
+}
+
+
+
+footer .last {
+    align-items: flex-start;
+
+}
+
+footer .last p {
+    margin-top: 40px;
+    color: #F5F7FA;
+
+    /* Body/Regular/Body 3 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+footer .last ul {
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+    padding: 0px;
+}
+
+footer .last-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+footer .last-grid .company h3,
+footer .last-grid .support h3,
+footer .last-grid .Stay h3 {
+    color: var(--Neutral-White, #FFF);
+
+    /* Heading/Headline 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+footer .last-grid .company ul,
+footer .last-grid .support ul {
+    margin-top: 20px;
+    color: #F5F7FA;
+
+    /* Body/Regular/Body 3 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    list-style: none;
+    padding: 0px;
+    line-height: 25px;
+}
+
+footer .last-grid .Stay .form-control {
+    border-radius: 8px;
+    opacity: 0.2;
+    background: var(--Default-White, #FFF);
+    height: 50px;
+}
+
+footer .last-grid .Stay button {
+    background: #515B60;
+    border: none;
+}
+
+
+
+/* end footer  */
